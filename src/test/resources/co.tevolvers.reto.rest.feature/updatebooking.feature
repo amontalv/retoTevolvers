@@ -10,3 +10,4 @@ Feature: Update Booking
     Examples:
       | firstname | lastname  | totalprice | depositpaid | checkin    | checkout   | additionalneeds | status | id |
       | auxiliar  | pruebas25 | 120        | false       | 2021-03-24 | 2022-03-24 | Breakfast       | 200    | 18 |
+      | auxiliar  | pruebas25 | 120        | false       | 2021-03-24 | 2022-03-24 | Breakfast       | 404    |    |

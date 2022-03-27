@@ -1,15 +1,12 @@
 package co.tevolvers.reto.interactions;
 
-import co.tevolvers.reto.tasks.AddToCart;
+import co.tevolvers.reto.tasks.front.AddToCart;
 import co.tevolvers.reto.userinterface.*;
 import net.serenitybdd.screenplay.Actor;
 import net.serenitybdd.screenplay.Interaction;
 import net.serenitybdd.screenplay.Tasks;
 import net.serenitybdd.screenplay.actions.Click;
 import net.serenitybdd.screenplay.actions.Scroll;
-
-import java.util.ArrayList;
-import java.util.List;
 
 public class SelectProduct implements Interaction {
     private String products;
